@@ -1,1 +1,1 @@
-mkdir img-101
+sudo mkdir /home/img-102

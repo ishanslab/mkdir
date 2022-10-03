@@ -17,6 +17,6 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsof
 
 sudo apt update && sudo apt install -y powershell
 
-echo 'Install-Module Az.ManagedServiceIdentity -Force -Verbose' >> /home/mod1.ps1
-echo 'Install-Module Az.ImageBuilder -Scope CurrentUser -Force -verbose' >> /home/mod1.ps1
+echo 'Install-Module Az.ManagedServiceIdentity -Scope AllUsers  -Force -Verbose' >> /home/mod1.ps1
+echo 'Install-Module Az.ImageBuilder -Scope AllUsers  -Force -verbose' >> /home/mod1.ps1
 pwsh -command /home/mod1.ps1

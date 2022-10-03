@@ -18,5 +18,3 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsof
 sudo apt update && sudo apt install -y powershell
 
 
-Install-Module Az.ManagedServiceIdentity -Force
-Install-Module Az.ImageBuilder -Force 

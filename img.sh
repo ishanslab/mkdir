@@ -19,5 +19,4 @@ sudo apt update && sudo apt install -y powershell
 
 echo 'Install-Module Az.ManagedServiceIdentity -Scope AllUsers  -Force -Verbose' >> /home/mod1.ps1
 echo 'Install-Module Az.ImageBuilder -Scope AllUsers  -Force -verbose' >> /home/mod1.ps1
-echo 'Install-Module Az -Scope AllUsers  -Force -verbose' >> /home/mod1.ps1
 pwsh -command /home/mod1.ps1
